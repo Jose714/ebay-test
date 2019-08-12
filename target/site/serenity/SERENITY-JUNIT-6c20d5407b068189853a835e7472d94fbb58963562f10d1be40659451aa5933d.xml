@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Busqueda de producto en Ebay" skipped="1" tests="3" time="84.69" timestamp="2019-08-07 08:22:11"><testcase name="Navega por la pagina"><skipped/></testcase><testcase name="Busqueda de producto en Ebay exitosa"><error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</error><system-err>Expected enabled element was not enabled&#13;
+com.ebay.testing.tasks.EscribeLa.performAs(EscribeLa.java:29)&#13;
+com.ebay.testing.stepsdefinitions.BuscarProductoEnEbayStepsDefinitions.elBuscaElProductoYLoAgregaAlCarritoDeCompras(BuscarProductoEnEbayStepsDefinitions.java:73)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>
