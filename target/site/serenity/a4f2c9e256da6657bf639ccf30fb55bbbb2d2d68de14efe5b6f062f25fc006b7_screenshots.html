@@ -126,7 +126,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-08-2019 11:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-08-2019 14:42</span>
     <br style="clear:left"/>
 </div>
 
@@ -177,9 +177,9 @@ ebay y voy a buscar un producto y comprarlo
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Busqueda de producto en Ebay exitosa
+                                <span class="error-color">Busqueda de producto en Ebay exitosa
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -200,68 +200,61 @@ ebay y voy a buscar un producto y comprarlo
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected condition failed: waiting for By.xpath: //b[contains(text(),'Che')] to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'SBMEDLAPPROJC53', ip: '172.23.85.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.ebay.testing.stepsdefinitions.BuscarProductoEnEbayStepsDefinitions.elDeberiaIniciarSesionEnLaPaginaDeEbay(BuscarProductoEnEbayStepsDefinitions.java:61)<br />✽.EL deberia iniciar sesion en la pagina de ebay(src/test/java/com/ebay/testing/features/BuscarProductoEnEbay.feature:10)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="354a5dd8233d63bd0873e91d8281de8473e7f2e5acb7ba56727fd966ff5daa79.png" title="Example #1: {product=Billete Raro Al Yankovic 8/10/19 1 Los Angeles, CA, expected=Gratis}" width="1366"/>
                 <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Jose navega por la pagina de inicio de sesion" width="1366"/>
-                <img src="ca623e4fbe0b5f28584d1e5baf5745bc05c0d5b64751407a3513c6a2b385162b.png" title="Given Jose navega por la pagina de inicio de sesion" width="1366"/>
+                <img src="adfb3fac04d370cfe95a100f85502b1820f3bf822614c9791b08ec26db5cb400.png" title="Given Jose navega por la pagina de inicio de sesion" width="1366"/>
                 <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Jose opens the Pagina de inicio de ebay" width="1366"/>
-                <img src="21460f79a981834e730888a5fb5c0ce074b17b7e69ecbaf8bf778c2be8a73c42.png" title="Jose opens the Pagina de inicio de ebay" width="1366"/>
-                <img src="21460f79a981834e730888a5fb5c0ce074b17b7e69ecbaf8bf778c2be8a73c42.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="bb3fbbeb5cf4dcb620e44e0328816618a87dcd78fb1565e79b2750f6298683cd.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="97d4e792cbcb2c12ad45916be563b45d339d7f6fb5a29b02f7eb3339d6dc31e8.png" title="When El ingresa usuario y contrasena" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="When El ingresa usuario y contrasena" width="1366"/>
+                <img src="a049a0fb423e92ce57c8fa007ad3e3007cd92f1699cb73d5aa23ed8e48039fa0.png" title="Jose opens the Pagina de inicio de ebay" width="1366"/>
+                <img src="a049a0fb423e92ce57c8fa007ad3e3007cd92f1699cb73d5aa23ed8e48039fa0.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
+                <img src="5dfa40306cef7097cfee345c9ca698182372df55c0e0119b84bf446074e35015.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
+                <img src="9f87b8e759b974b10a410867b8ffbfc105a2d48cb84953e3279e90e8df046cb7.png" title="When El ingresa usuario y contrasena" width="1366"/>
+                <img src="a74f56fc67d392bb7aa9f91b93e67c2363d9bfa8b0b1e60f0d530b6df808137a.png" title="When El ingresa usuario y contrasena" width="1366"/>
                 <img src="97d4e792cbcb2c12ad45916be563b45d339d7f6fb5a29b02f7eb3339d6dc31e8.png" title="Jose enters 'elbichocr714@gmail.com' into Inicio de sesion en la pagina de ebay" width="1366"/>
                 <img src="80bfacd668bb3ef7305f5759d055669176fe7bca5b99062713fa525c1c0c1086.png" title="Jose enters 'elbichocr714@gmail.com' into Inicio de sesion en la pagina de ebay" width="1366"/>
                 <img src="e10dc1d18547b21f51372e684d7066379e7e9c663ac79e3000b2e14b10f12e81.png" title="Jose enters '12345mil' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="36a70233751f7bf7cafd5d3f1238be97f304d1e5c8c42f1b2fee23a6a58f28fa.png" title="Jose enters '12345mil' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="Then EL deberia iniciar sesion en la pagina de ebay" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="Then haber iniciado should be 'Che'" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="Given Jose esta en la pagina Ebay" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="When El busca el producto y lo agrega al carrito de compras
-| product | expected |
-| Billete Raro Al Yankovic 8/10/19 1 Los Angeles, CA | Gratis |" width="1366"/>
-                <img src="354a5dd8233d63bd0873e91d8281de8473e7f2e5acb7ba56727fd966ff5daa79.png" title="When El busca el producto y lo agrega al carrito de compras
-| product | expected |
-| Billete Raro Al Yankovic 8/10/19 1 Los Angeles, CA | Gratis |" width="1366"/>
-                <img src="3ce7af96588df6c5b6b17b01f630f37550e42ed00935a7f22457405fe279f2be.png" title="Jose enters 'Billete Raro Al Yankovic 8/10/19 1 Los Angeles, CA' into Campo de busqueda de Google" width="1366"/>
-                <img src="2a237fc25dad51bc2a9b2c4abd8b3db7a01e866c64c0a874eb2fca5fd7d058e4.png" title="Jose enters 'Billete Raro Al Yankovic 8/10/19 1 Los Angeles, CA' into Campo de busqueda de Google" width="1366"/>
-                <img src="2a237fc25dad51bc2a9b2c4abd8b3db7a01e866c64c0a874eb2fca5fd7d058e4.png" title="Jose clicks on selecciona la camara en el sitio ebay" width="1366"/>
-                <img src="60c3548f24d8684e9e98c23f788d6889e3b102eb42f5c2e07afc0af0085e1fae.png" title="Jose clicks on selecciona la camara en el sitio ebay" width="1366"/>
-                <img src="60c3548f24d8684e9e98c23f788d6889e3b102eb42f5c2e07afc0af0085e1fae.png" title="Jose clicks on agregar producto al carrito" width="1366"/>
-                <img src="f204ad9a3e66c9fe181a492b4cc637e09bbb4bcb23d917414f9bf520d5d03312.png" title="Jose clicks on agregar producto al carrito" width="1366"/>
-                <img src="354a5dd8233d63bd0873e91d8281de8473e7f2e5acb7ba56727fd966ff5daa79.png" title="Then El verifica que la producto este en el carrito de compras" width="1366"/>
-                <img src="354a5dd8233d63bd0873e91d8281de8473e7f2e5acb7ba56727fd966ff5daa79.png" title="Then el producto en should be 'Gratis'" width="1366"/>
-                <img src="b22251c1652df8dac908af16580362a04e63978cc43cd77cf670c5aa38884b0b.png" title="Example #2: {product=One Piece Monkey D Luffy SC Top guerra 6 2nd Anime Colecci�n Figura Estatuilla NB, expected=Gratis}" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Jose navega por la pagina de inicio de sesion" width="1366"/>
-                <img src="d55b17ef4803498194c413712dcd3e2428ade7bdd2ffb6284604b843d2cbbc15.png" title="Given Jose navega por la pagina de inicio de sesion" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Jose opens the Pagina de inicio de ebay" width="1366"/>
-                <img src="ac4ecb847c01f02815e0b48b1ca02d2b8b67ec227574abb2cf7d6a2fb67bdf9c.png" title="Jose opens the Pagina de inicio de ebay" width="1366"/>
-                <img src="ac4ecb847c01f02815e0b48b1ca02d2b8b67ec227574abb2cf7d6a2fb67bdf9c.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="bb3fbbeb5cf4dcb620e44e0328816618a87dcd78fb1565e79b2750f6298683cd.png" title="Jose clicks on Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="97d4e792cbcb2c12ad45916be563b45d339d7f6fb5a29b02f7eb3339d6dc31e8.png" title="When El ingresa usuario y contrasena" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="When El ingresa usuario y contrasena" width="1366"/>
-                <img src="97d4e792cbcb2c12ad45916be563b45d339d7f6fb5a29b02f7eb3339d6dc31e8.png" title="Jose enters 'elbichocr714@gmail.com' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="80bfacd668bb3ef7305f5759d055669176fe7bca5b99062713fa525c1c0c1086.png" title="Jose enters 'elbichocr714@gmail.com' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="e10dc1d18547b21f51372e684d7066379e7e9c663ac79e3000b2e14b10f12e81.png" title="Jose enters '12345mil' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="ca0955d8daace71586db7d878986d205fae9be069edc9d789f8cdb57347c91a3.png" title="Jose enters '12345mil' into Inicio de sesion en la pagina de ebay" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="Then EL deberia iniciar sesion en la pagina de ebay" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="Then haber iniciado should be 'Che'" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="Given Jose esta en la pagina Ebay" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="When El busca el producto y lo agrega al carrito de compras
-| product | expected |
-| One Piece Monkey D Luffy SC Top guerra 6 2nd Anime Colecci�n Figura Estatuilla NB | Gratis |" width="1366"/>
-                <img src="b22251c1652df8dac908af16580362a04e63978cc43cd77cf670c5aa38884b0b.png" title="When El busca el producto y lo agrega al carrito de compras
-| product | expected |
-| One Piece Monkey D Luffy SC Top guerra 6 2nd Anime Colecci�n Figura Estatuilla NB | Gratis |" width="1366"/>
-                <img src="d056b564cd84bbf1deeca17ee64f9f1b9d5f90f6b69795123c02cb87976e5fd8.png" title="Jose enters 'One Piece Monkey D Luffy SC Top guerra 6 2nd Anime Colecci�n Figura Estatuilla NB' into Campo de busqueda de Google" width="1366"/>
-                <img src="7bebfa0a9fb3c62683a687be08a0cc280021e0b215f5ed3065d9e1ada81c0591.png" title="Jose enters 'One Piece Monkey D Luffy SC Top guerra 6 2nd Anime Colecci�n Figura Estatuilla NB' into Campo de busqueda de Google" width="1366"/>
-                <img src="7bebfa0a9fb3c62683a687be08a0cc280021e0b215f5ed3065d9e1ada81c0591.png" title="Jose clicks on selecciona la camara en el sitio ebay" width="1366"/>
-                <img src="e794c75427d6164e825baa9c6a720e35fd47c81d7a787bbc792e8e9edb894815.png" title="Jose clicks on selecciona la camara en el sitio ebay" width="1366"/>
-                <img src="b06025a00c45a09a41d41aae3cccf896b3a94a5ab17c3e5e4f01289b881cf3ed.png" title="Jose clicks on agregar producto al carrito" width="1366"/>
-                <img src="ea2372d0e546c85de9c0333dc4ab70284418beeb99e9251b5344f4ed5945b400.png" title="Jose clicks on agregar producto al carrito" width="1366"/>
-                <img src="b22251c1652df8dac908af16580362a04e63978cc43cd77cf670c5aa38884b0b.png" title="Then El verifica que la producto este en el carrito de compras" width="1366"/>
-                <img src="b22251c1652df8dac908af16580362a04e63978cc43cd77cf670c5aa38884b0b.png" title="Then el producto en should be 'Gratis': <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="a74f56fc67d392bb7aa9f91b93e67c2363d9bfa8b0b1e60f0d530b6df808137a.png" title="Jose enters '12345mil' into Inicio de sesion en la pagina de ebay" width="1366"/>
+                <img src="a74f56fc67d392bb7aa9f91b93e67c2363d9bfa8b0b1e60f0d530b6df808137a.png" title="Then EL deberia iniciar sesion en la pagina de ebay" width="1366"/>
+                <img src="a74f56fc67d392bb7aa9f91b93e67c2363d9bfa8b0b1e60f0d530b6df808137a.png" title="Then haber iniciado should be 'Che': <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

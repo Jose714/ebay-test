@@ -18,6 +18,7 @@ public class PaginaDeInicioDeEbay extends PageObject{
 	public static final Target BOTON_INICIAR_SESION = Target.the("Inicio de sesion en la pagina de ebay").located(By.xpath("//button[@id='sgnBt']"));
 	public static final Target SELECCIONAR = Target.the("Abrir menu de coleres del producto").located(By.xpath("//select[@id='msku-sel-1']"));
 	public static final Target SELECCIONAR_PRIMER_ATRIBUTO = Target.the("Abrir menu de coleres del producto").located(By.xpath("//option[@id='msku-opt-0']"));
-	public static final Target VALIDAR_LOGIN = Target.the("Abrir menu de coleres del producto").located(By.xpath("//b[contains(text(),'Che')]"));
+	public static final Target VALIDAR_LOGIN = Target.the("Abrir menu de coleres del producto y seleccionar"
+			+ "").located(By.xpath("//b[contains(text(),'Che')]"));
 	
 }
